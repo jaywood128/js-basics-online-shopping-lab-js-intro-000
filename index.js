@@ -82,9 +82,9 @@ function placeOrder(cardNumber) {
      setCart([])
      return 'Your total cost is $${sumCost}, which will be charged to \
      the card card ${cardNumber}'
-     
+
    }
 }
-  
+
 
 }
