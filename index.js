@@ -80,8 +80,8 @@ function placeOrder(cardNumber) {
    } else (arguments) {
      var sumCost = total()
      setCart([])
-     return 'Your total cost is $${sumCost}, which will be charged to \
-     the card card ${cardNumber}.'
+     return `Your total cost is $${sumCost}, which will be charged to \
+     the card card ${cardNumber}.`
 
    }
 }
