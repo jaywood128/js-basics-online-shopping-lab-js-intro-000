@@ -54,26 +54,23 @@ function removeFromCart(item) {
   }// write your code here
 
   function searchCartForItemToRemove(itemName) {
-      var searchResult
+      var searchResult 
       for (i = 0;i <cart.length; i++) {
-
+        
           if (itemName === cart.item[i]) {
-            searchResults = cart.item[i]}
+            searchResults = cart.item[i]} 
           }
   return searchResults
-}
+} 
   function removeItemFromCart(itemName) {
     var indexOfItemToRemove = cart.indexOf(itemToRemove)
 
     cart.splice(indexOfItemToRemove,1)
-
+    
 }
   function notifyUserThereIsNoItemToRemove() {
     return "That item is not in your cart"
   }
-
-
-
-}
-
+      
+    
 function placeOrder(cardNumber) {
