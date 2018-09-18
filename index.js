@@ -49,16 +49,16 @@ function total() {
 }
 
 function removeFromCart(item) {
-  var itemToRemove = searchCartForItemToRemove(itemName)
+  var itemToRemove = searchCartForItemToRemove(item)   
   return itemToRemove ? removeItemFromCart(itemToRemove) : notifyUserThereIsNoItemToRemove()
   }// write your code here
 
-  function searchCartForItemToRemove(itemName) {
-      var searchResult
+  function searchCartForItemToRemove(itemString) {
+      var searchResults
       for (i = 0;i <cart.length; i++) {
 
-          if (itemName === cart.item[i]) {
-            searchResults = cart.item[i]}
+          if (itemString === cart[i].itemName) {
+            searchResults = cart[i].itemName }
           }
   return searchResults
 }
