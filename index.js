@@ -84,6 +84,7 @@ function placeOrder(cardNumber) {
      the card card ${cardNumber}'
 
    }
+}
 
 
 
