@@ -58,7 +58,7 @@ function removeFromCart(item) {
       for (let i = 0;i <cart.length; i++) {
 
           if (itemString === cart[i].itemName) {
-            searchResults = cart[i].itemName }
+            searchResults = cart[i]}
           }
   return searchResults
 }
